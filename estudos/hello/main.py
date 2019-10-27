@@ -1,5 +1,6 @@
 
 # coding: utf-8
+# author: Jerônimo Gabriel
 
 import kivy
 from kivy.app import App
