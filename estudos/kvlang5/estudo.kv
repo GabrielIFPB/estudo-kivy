@@ -1,0 +1,21 @@
+
+<MinhaTela@BoxLayout>:
+	orientation: "vertical"
+
+	Button:
+		text: "self"
+		on_press: self.funcSelf()
+	Button:
+		text: "root"
+		on_press: root.funcRoot()
+	Button:
+		text: "app"
+		on_press: app.funcApp()
+	Label
+		id: lb1
+		text: "Label 1"
+	Label
+		id: lb2
+		text: "Label 2"
+
+MinhaTela:
